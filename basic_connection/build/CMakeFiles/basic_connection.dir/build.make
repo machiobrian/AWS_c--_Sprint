@@ -117,18 +117,19 @@ basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-cal.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-compression.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-mqtt.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-auth.a
+basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-checksums.a
+basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-event-stream.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-s3.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-sdkutils.a
-basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-event-stream.a
-basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-checksums.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-auth.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-http.a
-basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-compression.a
-basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-sdkutils.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-io.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libs2n.a
+basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-compression.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-cal.a
 basic_connection: /usr/lib/x86_64-linux-gnu/libcrypto.a
+basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-sdkutils.a
+basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-checksums.a
 basic_connection: /home/ix502iv/sdk-cpp-workspace/lib/libaws-c-common.a
 basic_connection: CMakeFiles/basic_connection.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ix502iv/Documents/AWS_c++_Sprint/basic_connection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable basic_connection"

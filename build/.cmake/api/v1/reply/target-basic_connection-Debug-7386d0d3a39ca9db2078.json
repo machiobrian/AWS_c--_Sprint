@@ -33,13 +33,85 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -59,19 +131,19 @@
 					"fragment" : "-g"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 15,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 15,
 					"fragment" : "-Wno-long-long"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 15,
 					"fragment" : "-pendatic"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 15,
 					"fragment" : "-Werror"
 				},
 				{
@@ -154,7 +226,7 @@
 			{
 				"backtraces" : 
 				[
-					4
+					16
 				],
 				"standard" : "14"
 			},
@@ -184,97 +256,92 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 3,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-http.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 4,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-io.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 5,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libs2n.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 6,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-common.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 7,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-cal.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 8,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-compression.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 9,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-mqtt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 10,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-auth.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-s3.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-sdkutils.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-event-stream.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
+				"backtrace" : 11,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-checksums.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-auth.a",
+				"backtrace" : 12,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-event-stream.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-http.a",
+				"backtrace" : 13,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-s3.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-compression.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
+				"backtrace" : 14,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-sdkutils.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 10,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-auth.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-http.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-io.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 5,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libs2n.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 8,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-compression.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-cal.a",
 				"role" : "libraries"
 			},
@@ -283,7 +350,17 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 14,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-sdkutils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-checksums.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
 				"fragment" : "/home/ix502iv/sdk-cpp-workspace/lib/libaws-c-common.a",
 				"role" : "libraries"
 			},

@@ -62,7 +62,7 @@ int main(int argc, char *argv[]){
             connectionCompletedPromise.set_value(false);
         }
         else{
-            fprintf(stdout, "Connection Completed with retuen code %d\n", returnCode);
+            fprintf(stdout, "Connection Completed with return code %d\n", returnCode);
             connectionCompletedPromise.set_value(true);
         }
     };
