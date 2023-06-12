@@ -96,5 +96,22 @@ int main(int argc, char *argv[]){
     On********** - eventHandler
     -> member access through pointer operator, access member of a class/structure
     */
+
+   /* Run the code sample */
+   fprintf(stdout, "Connecting...\n");
+   if(connection->Connect(cmdData.input_clientId.c_str(), false /*cleanSession*/, 1000 /*keepAliveTimeSecs*/)){
+    fprintf(stderr, "MQTT Connection failed with error %s\n", Aws::Crt::ErrorDebugString(connection->LastError()));
+    exit(-1);
+   }
+   // wait for the OnConnectionCompleted callback t fire, which sets connectionCompletedPromise
+   if(connectionCompletedPromise.get_future().get() == false){
+    fprintf(stderr, "Connection Failed\n");
+    exit(-1);
+   } 
+   // Disconnect
+   if (connection->Disconnect()){
+        connectionClosedPromise.get_future().wait();
+   }
+   return 0;
 }
 
