@@ -53,6 +53,32 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
+
+//Flags used by the C compiler during all build types.
+CMAKE_C_FLAGS:STRING=
+
+//Flags used by the C compiler during DEBUG builds.
+CMAKE_C_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the C compiler during MINSIZEREL builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the C compiler during RELEASE builds.
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the C compiler during RELWITHDEBINFO builds.
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
@@ -75,7 +101,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/home/ix502iv/sdk-cpp-workspace/build/crt/aws-crt-cpp/crt
+CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -183,14 +209,41 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for aws-c-auth.
+aws-c-auth_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-auth/cmake
+
+//The directory containing a CMake configuration file for aws-c-cal.
+aws-c-cal_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-cal/cmake
+
+//The directory containing a CMake configuration file for aws-c-common.
+aws-c-common_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-common/cmake
+
+//The directory containing a CMake configuration file for aws-c-compression.
+aws-c-compression_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-compression/cmake
+
+//The directory containing a CMake configuration file for aws-c-event-stream.
+aws-c-event-stream_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-event-stream/cmake
+
 //The directory containing a CMake configuration file for aws-c-http.
-aws-c-http_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/build/crt/aws-crt-cpp/crt/aws-c-http
+aws-c-http_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-http/cmake
 
 //The directory containing a CMake configuration file for aws-c-io.
-aws-c-io_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/build/crt/aws-crt-cpp/crt/aws-c-io
+aws-c-io_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-io/cmake
+
+//The directory containing a CMake configuration file for aws-c-mqtt.
+aws-c-mqtt_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-mqtt/cmake
+
+//The directory containing a CMake configuration file for aws-c-s3.
+aws-c-s3_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-s3/cmake
+
+//The directory containing a CMake configuration file for aws-c-sdkutils.
+aws-c-sdkutils_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-c-sdkutils/cmake
+
+//The directory containing a CMake configuration file for aws-checksums.
+aws-checksums_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-checksums/cmake
 
 //The directory containing a CMake configuration file for aws-crt-cpp.
-aws-crt-cpp_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/aws-iot-device-sdk-cpp-v2/crt/aws-crt-cpp/cmake
+aws-crt-cpp_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/aws-crt-cpp/cmake
 
 //Value Computed by CMake
 basic_connection_BINARY_DIR:STATIC=/home/ix502iv/Documents/AWS_c++_Sprint/basic_connection/build
@@ -201,11 +254,17 @@ basic_connection_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 basic_connection_SOURCE_DIR:STATIC=/home/ix502iv/Documents/AWS_c++_Sprint/basic_connection
 
-//The directory containing a CMake configuration file for crypto.
-crypto_DIR:PATH=crypto_DIR-NOTFOUND
+//Path to a file.
+crypto_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+crypto_SHARED_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a library.
+crypto_STATIC_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.a
 
 //The directory containing a CMake configuration file for s2n.
-s2n_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/build/crt/aws-crt-cpp/crt/s2n
+s2n_DIR:PATH=/home/ix502iv/sdk-cpp-workspace/lib/s2n/cmake
 
 
 ########################
@@ -248,6 +307,22 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER
+CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_AR
+CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
+CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS
+CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
+CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
+CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
+CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
+CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Executable file format
@@ -345,4 +420,12 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding crypto
+FIND_PACKAGE_MESSAGE_DETAILS_crypto:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.a][/usr/include][v()]
+//ADVANCED property for variable: crypto_INCLUDE_DIR
+crypto_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: crypto_SHARED_LIBRARY
+crypto_SHARED_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: crypto_STATIC_LIBRARY
+crypto_STATIC_LIBRARY-ADVANCED:INTERNAL=1
 
