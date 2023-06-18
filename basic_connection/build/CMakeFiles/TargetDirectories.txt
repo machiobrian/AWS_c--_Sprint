@@ -1,3 +1,0 @@
-/home/ix502iv/Documents/AWS_c++_Sprint/basic_connection/build/CMakeFiles/basic_connection.dir
-/home/ix502iv/Documents/AWS_c++_Sprint/basic_connection/build/CMakeFiles/edit_cache.dir
-/home/ix502iv/Documents/AWS_c++_Sprint/basic_connection/build/CMakeFiles/rebuild_cache.dir
