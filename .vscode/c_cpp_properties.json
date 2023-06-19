@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/ix502iv/sdk-workspace/include"
+                "/home/ix502iv/sdk-workspace/include",
+                "/home/ix502iv/esp-aws-iot/libraries"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
